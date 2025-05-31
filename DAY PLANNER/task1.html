@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Day Planner</title>
+  <link rel="stylesheet" href="task1.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>My Day Planner</h1>
+
+    <div class="time-slot">
+      <label for="slot1">9:00 AM</label>
+      <textarea id="slot1" placeholder="Enter your task..."></textarea>
+      <button onclick="saveTask('slot1')">Save</button>
+    </div>
+
+    <div class="time-slot">
+      <label for="slot2">10:00 AM</label>
+      <textarea id="slot2" placeholder="Enter your task..."></textarea>
+      <button onclick="saveTask('slot2')">Save</button>
+    </div>
+
+    <div class="time-slot">
+      <label for="slot3">6:00 AM</label>
+      <textarea id="slot3" placeholder="Enter your task..."></textarea>
+      <button onclick="saveTask('slot3')">Save</button>
+    </div>
+
+    <div class="time-slot">
+      <label for="slot4">12:00 PM</label>
+      <textarea id="slot4" placeholder="Enter your task..."></textarea>
+      <button onclick="saveTask('slot4')">Save</button>
+    </div>
+
+    
+    <div class="time-slot">
+      <label for="slot5">9:00 PM</label>
+      <textarea id="slot5" placeholder="Enter your task..."></textarea>
+      <button onclick="saveTask('slot5')">Save</button>
+    </div>
+
+<div class="time-slot">
+      <label for="slot6">1:00PM </label>
+      <textarea id="slot6" placeholder="Enter your task..."></textarea>
+      <button onclick="saveTask('slot6')">Save</button>
+    </div>
+
+    <button id="clearBtn" onclick="clearAll()">Clear All</button>
+  </div>
+
+  <script src="task1.js"></script>
+</body>
+</html>
